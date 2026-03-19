@@ -1,0 +1,71 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #77add7;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.navbar .leftside {
+  flex: 50%;
+  height: 100%;
+  display: flex;       /* ใช้ flex เพื่อจัดแนวนอน */
+  align-items: center; /* จัดให้รูปกับตัวหนังสืออยู่กึ่งกลางแนวตั้งเท่ากัน */
+  padding-left: 50px; 
+}
+
+.navbar .leftside img {
+  width: 180px;         /* ปรับขนาดรูปให้พอดี ไม่ให้เบียดตัวหนังสือ */
+  height: auto;
+  margin-left: -50px;  /* เว้นระยะห่างระหว่างรูปกับตัวหนังสือ */
+}
+
+.navbar .leftside h1 {
+  color: white;
+  font-size: 25px;
+  white-space: nowrap; /* ป้องกันตัวหนังสือตกบรรทัด */
+  margin-left: -50px;  /* เว้นระยะห่างระหว่างรูปกับตัวหนังสือ */
+}
+
+.navbar .leftside input {
+  margin-left: 220px; /* เว้นระยะห่างระหว่างตัวหนังสือกับช่องค้นหา */
+  padding: 5px;
+  font-size: 16px;
+  width: 500px;
+}
+
+.navbar .search-icon {
+  margin-left: 10px; /* เว้นระยะห่างระหว่างช่องค้นหากับไอคอน */
+  color: white;
+}
+
+.navbar .account-icon {
+  margin-left: 20px; /* เว้นระยะห่างระหว่างลิงก์กับไอคอนบัญชี */
+  color: white;
+  font-size: 45px;
+}
+
+.navbar .rightside {
+  flex: 50%;
+  margin-left: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  .navbar .leftside {
+    padding-left: 50px;
+  }
+  .navbar a {
+    margin: 10px;
+  }
+}

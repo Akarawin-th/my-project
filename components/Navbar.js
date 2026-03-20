@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../assets/Goat.png";
 import { Link } from "react-router-dom";
-import "../Styles/Navbar.css";
+import "../styles/Navbar.css";
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 

@@ -1,0 +1,5 @@
+.home {
+  background-color: rgb(228, 238, 238); /* สีดำที่คุณเลือก */
+  width: 100%;
+  min-height: 100vh; /* vh ย่อจาก view height คือให้สูงเต็มหน้าจอพอดี */
+}
